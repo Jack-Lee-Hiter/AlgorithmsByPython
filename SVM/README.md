@@ -8,4 +8,5 @@
 计算数据点到分割面距离并确定分割面的放置位置, 间隔:label * (**w****x**+b)。label=1或-1。
 
 最小间隔最大化:
+
 ![equation](https://latex.codecogs.com/gif.latex?%5Carg%20%5C%20%5Cmax_%7Bw%2Cb%7D%20%5C%7B%5Cmin_%7Bn%7D%5C%28label*%28%5Cmathit%7B%5Cmathbf%7Bw%5ETx%7D%7D&plus;b%29%29*%5Cfrac%7B1%7D%7B%7C%7C%5Cmathbf%7Bw%7D%7C%7C%7D%29%5C%7D)
