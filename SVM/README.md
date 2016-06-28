@@ -1,4 +1,4 @@
-# #Python实现支持向量机
+# Python实现支持向量机
 使用Python实现支持向量机，代码思路来源于[机器学习实战](https://github.com/pbharrin/machinelearninginaction)。
 
 # 线性可分支持向量机
