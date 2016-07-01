@@ -1,5 +1,5 @@
 from numpy import *
-
+# 代码来自机器实战
 def loadDataSet(fileName):
     dataMat = []; labelMat = []
     fr = open(fileName)
