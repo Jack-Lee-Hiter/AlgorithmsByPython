@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hash.py" afterPath="$PROJECT_DIR$/Hash.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BubbleSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InsertionSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MergeSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuickSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SelectionSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShellSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,18 +28,7 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,17 +48,24 @@
         <option value="$PROJECT_DIR$/Stack.py" />
         <option value="$PROJECT_DIR$/Queue.py" />
         <option value="$PROJECT_DIR$/SVM/SVM.py" />
-        <option value="$PROJECT_DIR$/Lists.py" />
         <option value="$PROJECT_DIR$/Recursion.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming.py" />
         <option value="$PROJECT_DIR$/CheckErrorWord.py" />
         <option value="$PROJECT_DIR$/BinarySearch.py" />
         <option value="$PROJECT_DIR$/Hash.py" />
+        <option value="$PROJECT_DIR$/BubbleSort.py" />
+        <option value="$PROJECT_DIR$/SelectionSort.py" />
+        <option value="$PROJECT_DIR$/Lists.py" />
+        <option value="$PROJECT_DIR$/InsertionSort.py" />
+        <option value="$PROJECT_DIR$/Target Offer/README.md" />
+        <option value="$PROJECT_DIR$/ShellSort.py" />
+        <option value="$PROJECT_DIR$/MergeSort.py" />
+        <option value="$PROJECT_DIR$/QuickSort.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="962" />
     <option name="width" value="958" />
     <option name="height" value="1080" />
   </component>
@@ -126,8 +128,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Hash">
-    <configuration default="false" name="Recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.QuickSort">
+    <configuration default="false" name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,12 +141,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Dynamic Programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -156,12 +158,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InsertionSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="CheckErrorWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ShellSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -173,12 +175,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CheckErrorWord.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShellSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -190,12 +192,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MergeSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -207,7 +209,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hash.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -347,19 +349,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Recursion" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Dynamic Programming" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CheckErrorWord" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BinarySearch" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Hash" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Lists" />
+      <item index="1" class="java.lang.String" itemvalue="Python.InsertionSort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ShellSort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.MergeSort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.QuickSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Hash" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BinarySearch" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CheckErrorWord" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Dynamic Programming" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Recursion" />
+        <item index="0" class="java.lang.String" itemvalue="Python.QuickSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ShellSort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.InsertionSort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Lists" />
       </list>
     </recent_temporary>
   </component>
@@ -380,15 +382,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="958" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="962" y="0" width="958" height="1080" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14444445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14444445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -528,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recursion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -563,18 +558,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hash.py">
+    <entry file="file://$PROJECT_DIR$/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch.py">
+    <entry file="file://$PROJECT_DIR$/Hash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="551">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SelectionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
           <folding />
         </state>
       </provider>
