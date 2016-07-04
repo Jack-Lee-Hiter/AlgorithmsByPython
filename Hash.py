@@ -30,15 +30,19 @@ class HashTable:
         self.data = [None] * self.size
 
     def put(self, key, data):
-        hashvalue = self.hashfunction(key, len(self.slots))
+        hashvalue = self.hashfunction(key, self.size)
 
         if self.slots[hashvalue] == None:
             self.slots[hashvalue] = key
             self.data[hashvalue] = data
         else:
-            if self.slots[hashvalue] ==key:
-                self.data[hashvalue] = data
+            if self.slots[hashvalue] == key:
+                self.data[hashvalue] = data         # 替换相同索引对应的项目
             else:
+                if None not in self.slots and key not in self.slots:
+                    # 判断hash是否已经满了, 必须添加key not in self.slots, 否则修改已有hash值会直接返回-1
+                    print('sorry, there is not enough slots for you!')
+                    return -1
                 nextslot = self.rehash(hashvalue, len(self.slots))
                 while self.slots[nextslot] != None and self.slots[nextslot] != key:
                     nextslot = self.rehash(nextslot, len(self.slots))
@@ -48,6 +52,7 @@ class HashTable:
                     self.data[nextslot] = data
                 else:
                     self.data[nextslot] = data
+
     def hashfunction(self, key, size):
         return key%size
 
@@ -79,14 +84,21 @@ class HashTable:
 
 H = HashTable()
 H[54] = 'cat'
-H[26]="dog"
-H[93]="lion"
-H[17]="tiger"
-H[77]="bird"
-H[31]="cow"
-H[44]="goat"
-H[55]="pig"
-H[20]="chicken"
+H[26] = "dog"
+H[93] = "lion"
+H[17] = "tiger"
+H[77] = "bird"
+H[31] = "cow"
+H[44] = "goat"
+H[55] = "pig"
+H[20] = "chicken"
+print(H[20])
 print(H.slots)
 print(H.data)
 print(H[99])
+H[21] = "elephant"
+H[22] = "sheep"
+H[23] = "fish"
+print(H.data)
+H[20] = 'monkey'
+print(H.data)
