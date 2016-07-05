@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/替换空格.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构.md" afterPath="$PROJECT_DIR$/数据结构.md" />
-    </list>
+    <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="" />
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
