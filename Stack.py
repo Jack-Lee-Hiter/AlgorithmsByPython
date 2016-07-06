@@ -21,17 +21,18 @@ class Stack():
         return len(self.items)
 
 # 栈属性测试
-s = Stack()
-print(s.isEmpty())
-s.push(4)
-s.push('dog')
-print(s.peek())
-s.push(True)
-print(s.isEmpty())
-s.push(8.4)
-print(s.pop())
-print(s.pop())
-print(s.size())
+# 测试数据
+# s = Stack()
+# print(s.isEmpty())
+# s.push(4)
+# s.push('dog')
+# print(s.peek())
+# s.push(True)
+# print(s.isEmpty())
+# s.push(8.4)
+# print(s.pop())
+# print(s.pop())
+# print(s.size())
 
 # 利用栈将字串的字符反转
 def revstring(mystr):
@@ -44,9 +45,9 @@ def revstring(mystr):
         outputStr += s.pop()
     return outputStr
 
-print(revstring('apple'))
-print(revstring('x'))
-print(revstring('1234567890'))
+# print(revstring('apple'))
+# print(revstring('x'))
+# print(revstring('1234567890'))
 
 # 利用栈判断括号平衡Balanced parentheses
 def parChecker(symbolString):
@@ -76,7 +77,7 @@ def matches(open, close):
     closers = ')]}'
     return opens.index(open) == closers.index(close)
 
-print(parChecker('({([()])}){}'))
+# print(parChecker('({([()])}){}'))
 
 # 利用栈将十进制整数转化为二进制整数
 def Dec2Bin(decNumber):
@@ -91,7 +92,7 @@ def Dec2Bin(decNumber):
         binString += str(s.pop())
     return binString
 
-print(Dec2Bin(42))
+# print(Dec2Bin(42))
 
 # 利用栈实现多进制转换
 def baseConverter(decNumber, base):
@@ -110,7 +111,7 @@ def baseConverter(decNumber, base):
 
     return newString
 
-print(baseConverter(59, 16))
+# print(baseConverter(59, 16))
 
 # 利用栈实现普通多项式的后缀表达式
 def infixToPostfix(infixexpr):
@@ -144,6 +145,6 @@ def infixToPostfix(infixexpr):
 
     return ''.join(postfixList)
 
-print(infixToPostfix("A * B + C * D"))
-print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
+# print(infixToPostfix("A * B + C * D"))
+# print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
 
