@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVL.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BinaryHeap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BinarySearchTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stack.py" afterPath="$PROJECT_DIR$/Stack.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构.md" afterPath="$PROJECT_DIR$/数据结构.md" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
