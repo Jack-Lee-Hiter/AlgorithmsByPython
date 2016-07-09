@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/二进制中1的个数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/斐波那契数列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/数值的整数次方.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
@@ -28,18 +30,7 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="二进制中1的个数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Target Offer/二进制中1的个数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,7 +68,6 @@
         <option value="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
         <option value="$PROJECT_DIR$/Target Offer/替换空格.py" />
         <option value="$PROJECT_DIR$/Tree.py" />
-        <option value="$PROJECT_DIR$/Stack.py" />
         <option value="$PROJECT_DIR$/BinaryTree.py" />
         <option value="$PROJECT_DIR$/ParseTree.py" />
         <option value="$PROJECT_DIR$/BinaryHeap.py" />
@@ -90,6 +80,11 @@
         <option value="$PROJECT_DIR$/Target Offer/旋转数组的最小数字.py" />
         <option value="$PROJECT_DIR$/Target Offer/斐波那契数列.py" />
         <option value="$PROJECT_DIR$/Target Offer/二进制中1的个数.py" />
+        <option value="$PROJECT_DIR$/Target Offer/数值的整数次方.py" />
+        <option value="$PROJECT_DIR$/Stack.py" />
+        <option value="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
+        <option value="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
+        <option value="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
       </list>
     </option>
   </component>
@@ -172,8 +167,8 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.二进制中1的个数">
-    <configuration default="false" name="重建二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.调整数组顺序使奇数位于偶数前面">
+    <configuration default="false" name="数值的整数次方" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -185,12 +180,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/重建二叉树.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数值的整数次方.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="用两个栈实现队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="打印1到最大的n位数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,12 +197,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/用两个栈实现队列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="在O(1)时间内删除链表结点" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -219,29 +214,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/旋转数组的最小数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/斐波那契数列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="二进制中1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="调整数组顺序使奇数位于偶数前面" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -253,7 +248,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/二进制中1的个数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -393,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.重建二叉树" />
-      <item index="1" class="java.lang.String" itemvalue="Python.用两个栈实现队列" />
-      <item index="2" class="java.lang.String" itemvalue="Python.旋转数组的最小数字" />
-      <item index="3" class="java.lang.String" itemvalue="Python.斐波那契数列" />
-      <item index="4" class="java.lang.String" itemvalue="Python.二进制中1的个数" />
+      <item index="0" class="java.lang.String" itemvalue="Python.数值的整数次方" />
+      <item index="1" class="java.lang.String" itemvalue="Python.打印1到最大的n位数" />
+      <item index="2" class="java.lang.String" itemvalue="Python.在O(1)时间内删除链表结点" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Lists" />
+      <item index="4" class="java.lang.String" itemvalue="Python.调整数组顺序使奇数位于偶数前面" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.二进制中1的个数" />
-        <item index="1" class="java.lang.String" itemvalue="Python.斐波那契数列" />
-        <item index="2" class="java.lang.String" itemvalue="Python.旋转数组的最小数字" />
-        <item index="3" class="java.lang.String" itemvalue="Python.用两个栈实现队列" />
-        <item index="4" class="java.lang.String" itemvalue="Python.重建二叉树" />
+        <item index="0" class="java.lang.String" itemvalue="Python.调整数组顺序使奇数位于偶数前面" />
+        <item index="1" class="java.lang.String" itemvalue="Python.在O(1)时间内删除链表结点" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Lists" />
+        <item index="3" class="java.lang.String" itemvalue="Python.打印1到最大的n位数" />
+        <item index="4" class="java.lang.String" itemvalue="Python.数值的整数次方" />
       </list>
     </recent_temporary>
   </component>
@@ -427,17 +422,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="0" width="958" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14343435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14343435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.504717" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989899" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/Singleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -731,14 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/反向打印链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -781,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/替换空格.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -813,10 +784,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/数值的整数次方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/反向打印链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/二进制中1的个数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
           <folding />
         </state>
       </provider>
