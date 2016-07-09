@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/数值的整数次方.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RadixSort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/反转链表.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/合并两个排序的链表.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/树的子结构.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/链表中倒数第k个结点.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
@@ -30,7 +31,48 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="合并两个排序的链表.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Target Offer/合并两个排序的链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadixSort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RadixSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="树的子结构.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Target Offer/树的子结构.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="反转链表.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Target Offer/反转链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="20" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,7 +115,6 @@
         <option value="$PROJECT_DIR$/BinaryHeap.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree.py" />
         <option value="$PROJECT_DIR$/AVL.py" />
-        <option value="$PROJECT_DIR$/Target Offer/反向打印链表.py" />
         <option value="$PROJECT_DIR$/Target Offer/重建二叉树.py" />
         <option value="$PROJECT_DIR$/Target Offer/用两个栈实现队列.py" />
         <option value="$PROJECT_DIR$/Target Offer/README.md" />
@@ -85,6 +126,12 @@
         <option value="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
         <option value="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
         <option value="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
+        <option value="$PROJECT_DIR$/Target Offer/反向打印链表.py" />
+        <option value="$PROJECT_DIR$/Target Offer/链表中倒数第k个结点.py" />
+        <option value="$PROJECT_DIR$/Target Offer/反转链表.py" />
+        <option value="$PROJECT_DIR$/RadixSort.py" />
+        <option value="$PROJECT_DIR$/Target Offer/合并两个排序的链表.py" />
+        <option value="$PROJECT_DIR$/Target Offer/树的子结构.py" />
       </list>
     </option>
   </component>
@@ -167,8 +214,8 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.调整数组顺序使奇数位于偶数前面">
-    <configuration default="false" name="数值的整数次方" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.树的子结构">
+    <configuration default="false" name="链表中倒数第k个结点" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,12 +227,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数值的整数次方.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/链表中倒数第k个结点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="打印1到最大的n位数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="反转链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -197,29 +244,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/打印1到最大的n位数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/反转链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="在O(1)时间内删除链表结点" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/在O(1)时间内删除链表结点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="RadixSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -231,12 +261,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RadixSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="调整数组顺序使奇数位于偶数前面" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="合并两个排序的链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -248,7 +278,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/合并两个排序的链表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="树的子结构" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/树的子结构.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -388,19 +435,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.数值的整数次方" />
-      <item index="1" class="java.lang.String" itemvalue="Python.打印1到最大的n位数" />
-      <item index="2" class="java.lang.String" itemvalue="Python.在O(1)时间内删除链表结点" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Lists" />
-      <item index="4" class="java.lang.String" itemvalue="Python.调整数组顺序使奇数位于偶数前面" />
+      <item index="0" class="java.lang.String" itemvalue="Python.链表中倒数第k个结点" />
+      <item index="1" class="java.lang.String" itemvalue="Python.反转链表" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RadixSort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.合并两个排序的链表" />
+      <item index="4" class="java.lang.String" itemvalue="Python.树的子结构" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.调整数组顺序使奇数位于偶数前面" />
-        <item index="1" class="java.lang.String" itemvalue="Python.在O(1)时间内删除链表结点" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Lists" />
-        <item index="3" class="java.lang.String" itemvalue="Python.打印1到最大的n位数" />
-        <item index="4" class="java.lang.String" itemvalue="Python.数值的整数次方" />
+        <item index="0" class="java.lang.String" itemvalue="Python.树的子结构" />
+        <item index="1" class="java.lang.String" itemvalue="Python.合并两个排序的链表" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RadixSort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.反转链表" />
+        <item index="4" class="java.lang.String" itemvalue="Python.链表中倒数第k个结点" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +469,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="0" width="958" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -461,13 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -533,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnagramDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -824,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/反向打印链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/二进制中1的个数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -842,8 +867,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/调整数组顺序使奇数位于偶数前面.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        <state relative-caret-position="735">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnagramDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/链表中倒数第k个结点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/反向打印链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/反转链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/合并两个排序的链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadixSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/树的子结构.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
           <folding />
         </state>
       </provider>
