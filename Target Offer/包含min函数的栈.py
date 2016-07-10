@@ -16,6 +16,8 @@ class Solution:
             self.minStack.append(temp)
 
     def pop(self):
+        if self.stack == [] or self.minStack == []:
+            return None
         self.minStack.pop()
         self.stack.pop()
 
