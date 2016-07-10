@@ -19,8 +19,6 @@ class Solution:
                 result = self.HasSubtree(pRoot1.left, pRoot2)
             if not result:
                 result = self.HasSubtree(pRoot1.right, pRoot2)
-        else:
-            return False
         return result
     # 用于递归判断树的每个节点是否相同
     # 需要注意的地方是: 前两个if语句不可以颠倒顺序
