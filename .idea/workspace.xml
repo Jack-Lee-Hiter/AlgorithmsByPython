@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/丑数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/两个链表的第一个公共结点.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/把数组排成最小的数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/数组中的逆序对.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/整数中1出现的次数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/第一个只出现一次的字符.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/连续子数组的最大和.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AlgorithmsByPython.iml" afterPath="$PROJECT_DIR$/.idea/AlgorithmsByPython.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/二叉树的深度.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/判断平衡二叉树.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/和为s的两个数字.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
@@ -34,18 +32,7 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="两个链表的第一个公共结点.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Target Offer/两个链表的第一个公共结点.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,14 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Target Offer/Singleton.py" />
-        <option value="$PROJECT_DIR$/Target Offer/transSparseMatrix.py" />
-        <option value="$PROJECT_DIR$/Target Offer/multiSparse.py" />
-        <option value="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
-        <option value="$PROJECT_DIR$/Target Offer/替换空格.py" />
-        <option value="$PROJECT_DIR$/Tree.py" />
-        <option value="$PROJECT_DIR$/BinaryTree.py" />
-        <option value="$PROJECT_DIR$/ParseTree.py" />
         <option value="$PROJECT_DIR$/BinaryHeap.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree.py" />
         <option value="$PROJECT_DIR$/AVL.py" />
@@ -111,6 +90,14 @@
         <option value="$PROJECT_DIR$/Target Offer/第一个只出现一次的字符.py" />
         <option value="$PROJECT_DIR$/Target Offer/数组中的逆序对.py" />
         <option value="$PROJECT_DIR$/Target Offer/两个链表的第一个公共结点.py" />
+        <option value="$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py" />
+        <option value="$PROJECT_DIR$/Target Offer/二叉树的深度.py" />
+        <option value="$PROJECT_DIR$/Target Offer/判断平衡二叉树.py" />
+        <option value="$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py" />
+        <option value="$PROJECT_DIR$/Target Offer/和为s的两个数字VS和为s的连续正数序列.py" />
+        <option value="$PROJECT_DIR$/Target Offer/和为s的两个数字.py" />
+        <option value="$PROJECT_DIR$/Target Offer/和为.py" />
+        <option value="$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py" />
       </list>
     </option>
   </component>
@@ -193,8 +180,8 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.数组中的逆序对">
-    <configuration default="false" name="整数中1出现的次数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.和为s的连续整数序列">
+    <configuration default="false" name="旋转数组的最小数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -206,12 +193,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/整数中1出现的次数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/旋转数组的最小数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="把数组排成最小的数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="数字在排序数组中出现的次数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -223,12 +210,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/把数组排成最小的数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="丑数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="数组中只出现一次的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -240,12 +227,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/丑数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="第一个只出现一次的字符" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="和为s的两个数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -257,12 +244,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/第一个只出现一次的字符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/和为s的两个数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="数组中的逆序对" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="和为s的连续整数序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -274,7 +261,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数组中的逆序对.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -414,19 +401,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.整数中1出现的次数" />
-      <item index="1" class="java.lang.String" itemvalue="Python.把数组排成最小的数" />
-      <item index="2" class="java.lang.String" itemvalue="Python.丑数" />
-      <item index="3" class="java.lang.String" itemvalue="Python.第一个只出现一次的字符" />
-      <item index="4" class="java.lang.String" itemvalue="Python.数组中的逆序对" />
+      <item index="0" class="java.lang.String" itemvalue="Python.旋转数组的最小数字" />
+      <item index="1" class="java.lang.String" itemvalue="Python.数字在排序数组中出现的次数" />
+      <item index="2" class="java.lang.String" itemvalue="Python.数组中只出现一次的数字" />
+      <item index="3" class="java.lang.String" itemvalue="Python.和为s的两个数字" />
+      <item index="4" class="java.lang.String" itemvalue="Python.和为s的连续整数序列" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.数组中的逆序对" />
-        <item index="1" class="java.lang.String" itemvalue="Python.第一个只出现一次的字符" />
-        <item index="2" class="java.lang.String" itemvalue="Python.丑数" />
-        <item index="3" class="java.lang.String" itemvalue="Python.把数组排成最小的数" />
-        <item index="4" class="java.lang.String" itemvalue="Python.整数中1出现的次数" />
+        <item index="0" class="java.lang.String" itemvalue="Python.和为s的连续整数序列" />
+        <item index="1" class="java.lang.String" itemvalue="Python.和为s的两个数字" />
+        <item index="2" class="java.lang.String" itemvalue="Python.数组中只出现一次的数字" />
+        <item index="3" class="java.lang.String" itemvalue="Python.数字在排序数组中出现的次数" />
+        <item index="4" class="java.lang.String" itemvalue="Python.旋转数组的最小数字" />
       </list>
     </recent_temporary>
   </component>
@@ -448,14 +435,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="0" width="958" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14343435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14343435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.504717" order="2" side_tool="true" content_ui="tabs" />
@@ -487,61 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinaryHeap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/用两个栈实现队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="13" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/旋转数组的最小数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/替换空格.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -625,6 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="5" selection-start-line="35" selection-start-column="0" selection-end-line="41" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,6 +586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="59" column="21" selection-start-line="46" selection-start-column="0" selection-end-line="59" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,6 +641,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,6 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,6 +657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -728,6 +665,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,6 +808,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/旋转数组的最小数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="51" column="57" selection-start-line="6" selection-start-column="4" selection-end-line="51" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/二叉树的深度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/判断平衡二叉树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/和为s的两个数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
         </state>
       </provider>
