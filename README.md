@@ -3,3 +3,6 @@
 
 ## update 20160704
 准备加入[《剑指offer》](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00L5LKMVU?ie=UTF8&*Version*=1&*entries*=0)的习题python实现,以及机器学习过程中的一些算法
+
+## update 20160717
+加入leetcode部分
