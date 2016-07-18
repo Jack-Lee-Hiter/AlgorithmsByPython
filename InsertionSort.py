@@ -15,8 +15,8 @@ def insertionSort2(alist):
         currentvalue = alist[index]
         position = index
 
-        while position > 0 and alist[index-1] > currentvalue:
-            alist[index] = alist[index-1]
+        while position > 0 and alist[position-1] > currentvalue:
+            alist[position] = alist[position-1]
             position -= 1
         alist[position] = currentvalue
 
