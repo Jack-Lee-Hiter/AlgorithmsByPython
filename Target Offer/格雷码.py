@@ -7,9 +7,7 @@
 
 class GrayCode:
     def getGray(self, n):
-        L = []
-        L1 = []
-        L2 = []
+        L, L1, L2 = [], [], []
         if n == 1:
             L = ['0', '1']
         else:
