@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="" />
+    <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +14,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -39,9 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Target Offer/第一个只出现一次的字符.py" />
-        <option value="$PROJECT_DIR$/Target Offer/数组中的逆序对.py" />
-        <option value="$PROJECT_DIR$/Target Offer/两个链表的第一个公共结点.py" />
         <option value="$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py" />
         <option value="$PROJECT_DIR$/Target Offer/二叉树的深度.py" />
         <option value="$PROJECT_DIR$/Target Offer/判断平衡二叉树.py" />
@@ -90,6 +89,9 @@
         <option value="$PROJECT_DIR$/Target Offer/转换字符串格式.py" />
         <option value="$PROJECT_DIR$/Target Offer/格雷码.py" />
         <option value="$PROJECT_DIR$/Target Offer/分治法解决最近对问题.py" />
+        <option value="$PROJECT_DIR$/leetcode/AddBinary.py" />
+        <option value="$PROJECT_DIR$/leetcode/13.AddBinary.py" />
+        <option value="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
       </list>
     </option>
   </component>
@@ -133,6 +135,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -148,24 +174,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.分治法解决最近对问题">
-    <configuration default="false" name="输出连续质数序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/输出连续质数序列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.67. AddBinary">
     <configuration default="false" name="找出字符串中重复出现的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,6 +239,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/分治法解决最近对问题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="67. AddBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -369,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.输出连续质数序列" />
-      <item index="1" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
-      <item index="2" class="java.lang.String" itemvalue="Python.转换字符串格式" />
-      <item index="3" class="java.lang.String" itemvalue="Python.格雷码" />
-      <item index="4" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
+      <item index="0" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
+      <item index="1" class="java.lang.String" itemvalue="Python.转换字符串格式" />
+      <item index="2" class="java.lang.String" itemvalue="Python.格雷码" />
+      <item index="3" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
+      <item index="4" class="java.lang.String" itemvalue="Python.67. AddBinary" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
-        <item index="1" class="java.lang.String" itemvalue="Python.格雷码" />
-        <item index="2" class="java.lang.String" itemvalue="Python.转换字符串格式" />
-        <item index="3" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
-        <item index="4" class="java.lang.String" itemvalue="Python.输出连续质数序列" />
+        <item index="0" class="java.lang.String" itemvalue="Python.67. AddBinary" />
+        <item index="1" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
+        <item index="2" class="java.lang.String" itemvalue="Python.格雷码" />
+        <item index="3" class="java.lang.String" itemvalue="Python.转换字符串格式" />
+        <item index="4" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
       </list>
     </recent_temporary>
   </component>
@@ -405,12 +431,12 @@
     <frame x="962" y="0" width="958" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22828282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22773279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.504717" order="2" side_tool="true" content_ui="tabs" />
@@ -461,13 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/和为s的两个数字.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -807,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,6 +840,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/67. AddBinary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding />
         </state>
       </provider>
