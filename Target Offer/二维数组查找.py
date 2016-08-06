@@ -27,11 +27,12 @@ class Solution:
         colnum = len(array[0])
 
         # 判断非法输入
+        # 可以换成 isinstance(target, (int, float)) 进行判断
         if type(target) == float and type(array[0][0]) == int:
             target = int(target)
         elif type(target) == int and type(array[0][0]) == float:
             target = float(int)
-        elif type(target) != type(array[0][0]):
+        elif type(target) != type(array[0][0]):     # 浮点数的相等判断问题需要特别注意, 一般都是判断两个数的差值是否小于一个特别小的数。这里不展开分析。
             return False
 
         i = colnum - 1

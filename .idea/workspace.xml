@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Target Offer/递归和非递归实现二叉搜索树的三种遍历.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/二维数组查找.py" afterPath="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/替换空格.py" afterPath="$PROJECT_DIR$/Target Offer/替换空格.py" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,9 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Target Offer/数字在排序数组中出现的次数.py" />
-        <option value="$PROJECT_DIR$/Target Offer/二叉树的深度.py" />
-        <option value="$PROJECT_DIR$/Target Offer/判断平衡二叉树.py" />
         <option value="$PROJECT_DIR$/Target Offer/数组中只出现一次的数字.py" />
         <option value="$PROJECT_DIR$/Target Offer/和为s的两个数字VS和为s的连续正数序列.py" />
         <option value="$PROJECT_DIR$/Target Offer/和为s的两个数字.py" />
@@ -92,6 +91,9 @@
         <option value="$PROJECT_DIR$/leetcode/AddBinary.py" />
         <option value="$PROJECT_DIR$/leetcode/13.AddBinary.py" />
         <option value="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
+        <option value="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
+        <option value="$PROJECT_DIR$/Target Offer/替换空格.py" />
+        <option value="$PROJECT_DIR$/Target Offer/递归和非递归实现二叉搜索树的三种遍历.py" />
       </list>
     </option>
   </component>
@@ -125,8 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,7 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
+              <option name="myItemId" value="Target Offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -174,24 +176,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.67. AddBinary">
-    <configuration default="false" name="找出字符串中重复出现的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/找出字符串中重复出现的最长子串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.递归和非递归实现二叉搜索树的三种遍历">
     <configuration default="false" name="转换字符串格式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +241,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/67. AddBinary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="递归和非递归实现二叉搜索树的三种遍历" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/递归和非递归实现二叉搜索树的三种遍历.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -395,19 +397,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
-      <item index="1" class="java.lang.String" itemvalue="Python.转换字符串格式" />
-      <item index="2" class="java.lang.String" itemvalue="Python.格雷码" />
-      <item index="3" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
-      <item index="4" class="java.lang.String" itemvalue="Python.67. AddBinary" />
+      <item index="0" class="java.lang.String" itemvalue="Python.转换字符串格式" />
+      <item index="1" class="java.lang.String" itemvalue="Python.格雷码" />
+      <item index="2" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
+      <item index="3" class="java.lang.String" itemvalue="Python.67. AddBinary" />
+      <item index="4" class="java.lang.String" itemvalue="Python.递归和非递归实现二叉搜索树的三种遍历" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.67. AddBinary" />
-        <item index="1" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
-        <item index="2" class="java.lang.String" itemvalue="Python.格雷码" />
-        <item index="3" class="java.lang.String" itemvalue="Python.转换字符串格式" />
-        <item index="4" class="java.lang.String" itemvalue="Python.找出字符串中重复出现的最长子串" />
+        <item index="0" class="java.lang.String" itemvalue="Python.递归和非递归实现二叉搜索树的三种遍历" />
+        <item index="1" class="java.lang.String" itemvalue="Python.67. AddBinary" />
+        <item index="2" class="java.lang.String" itemvalue="Python.分治法解决最近对问题" />
+        <item index="3" class="java.lang.String" itemvalue="Python.格雷码" />
+        <item index="4" class="java.lang.String" itemvalue="Python.转换字符串格式" />
       </list>
     </recent_temporary>
   </component>
@@ -487,27 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/和为s的两个数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/字符串的左旋转.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/翻转单词顺序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -847,6 +828,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/二维数组查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/替换空格.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/递归和非递归实现二叉搜索树的三种遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
           <folding />
         </state>
       </provider>
