@@ -24,6 +24,15 @@ class Solution:
             pPrev = pNode
             pNode = pNext
         return pReversedHead
+    # 递归实现反转链表
+    def ReverseListRec(self, pHead):
+        if not pHead or not pHead.next:
+            return pHead
+        else:
+            pReversedHead = self.ReverseList(pHead.next)
+            pHead.next.next = pHead
+            pHead.next = None
+            return pReversedHead
 
 node1 = ListNode(10)
 node2 = ListNode(11)

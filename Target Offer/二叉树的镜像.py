@@ -43,6 +43,22 @@ class Solution:
             if tree.right:
                 stackNode.append(tree.right)
                 nodeNum += 1
+    # 非递归实现
+    def MirrorNoRecursion(self, root):
+        if root == None:
+            return
+        nodeQue = [root]
+        while len(nodeQue) > 0:
+            curLevel, count = len(nodeQue), 0
+            while count < curLevel:
+                count += 1
+                pRoot = nodeQue.pop(0)
+                pRoot.left, pRoot.right = pRoot.right, pRoot.left
+                if pRoot.left:
+                    nodeQue.append(pRoot.left)
+                if pRoot.right:
+                    nodeQue.append(pRoot.right)
+            return
 
 pNode1 = TreeNode(8)
 pNode2 = TreeNode(6)
