@@ -11,9 +11,7 @@ class TreeNode:
 class Solution:
     # 返回二维列表，内部每个列表表示找到的路径
     def FindPath(self, root, expectNumber):
-        if root == None:
-            return []
-        if root.val > expectNumber:
+        if root == None or root.val > expectNumber:
             return []
         elif root.val == expectNumber:
             if root.left or root.right:
@@ -24,21 +22,15 @@ class Solution:
         stack = []
         if root.left:
             stackLeft = self.FindPath(root.left, expectNumber-root.val)
-            if stackLeft:
-                for i in stackLeft:
-                    i.insert(0, root.val)
-                    stack.append(i)
+            for i in stackLeft:
+                i.insert(0, root.val)
+                stack.append(i)
         if root.right:
             stackRight = self.FindPath(root.right, expectNumber-root.val)
-            if stackRight:
-                for i in stackRight:
-                    i.insert(0, root.val)
-                    stack.append(i)
-
-        if stack:
-            return stack
-        else:
-            return []
+            for i in stackRight:
+                i.insert(0, root.val)
+                stack.append(i)
+        return stack
 
 pNode1 = TreeNode(10)
 pNode2 = TreeNode(5)
