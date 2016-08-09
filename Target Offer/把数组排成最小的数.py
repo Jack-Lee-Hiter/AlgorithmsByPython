@@ -17,6 +17,16 @@ class Solution:
         key = cmp_to_key(lambda x, y: int(x+y)-int(y+x))
         strList.sort(key=key)
         return ''.join(strList)
+    # 使用冒泡排序
+    def PrintMinNumber2(self, numbers):
+        if numbers == None or len(numbers) <= 0:
+            return ''
+        strNum = [str(m) for m in numbers]
+        for i in range(len(numbers)-1):
+            for j in range(i+1, len(numbers)):
+                if strNum[i] + strNum[j] > strNum[j] + strNum[i]:
+                    strNum[i], strNum[j] = strNum[j], strNum[i]
+        return ''.join(strNum)
 
 numbers = [3, 32, 321]
 s = Solution()
