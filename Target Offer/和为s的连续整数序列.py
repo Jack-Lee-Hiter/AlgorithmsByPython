@@ -22,5 +22,25 @@ class Solution:
             big += 1
             curSum += big
         return output
+
+    def FindContinuousSequence2(self, tsum):
+        if tsum < 3:
+            return []
+        small, big = 1, 2
+        middle = (tsum + 1) >> 1
+        curSum = small + big
+        output = []
+        while small < middle:
+            if curSum == tsum:
+                output.append(list(range(small, big + 1)))
+                big += 1
+                curSum += big
+            elif curSum > tsum:
+                curSum -= small
+                small += 1
+            else:
+                big += 1
+                curSum += big
+        return output
 s = Solution()
-print(s.FindContinuousSequence(15))
+print(s.FindContinuousSequence2(15))
