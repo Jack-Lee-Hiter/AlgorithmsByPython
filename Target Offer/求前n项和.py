@@ -15,6 +15,7 @@ class Solution:
     # 利用非0值作两次非运算返回false, 0作两次非运算返回True
     def sumN(self, n):
         fun = {False: self.sum0, True: self.sumN}
+        # 此处的fun[not not n] 不能写作func[not not n-1], 否则测试用例为0的话, 就会无限次迭代
         return n + fun[not not n](n - 1)
 
     def Sum_Solution2(self, n):
