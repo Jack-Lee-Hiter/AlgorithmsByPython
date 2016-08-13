@@ -24,8 +24,26 @@ class Solution:
                     index = numbers[i]
                     numbers[i], numbers[index] = numbers[index], numbers[i]
         return False
+    # 输出所有重复的数字
+    def duplicate2(self, numbers):
+        if numbers == None or len(numbers) <= 0:
+            return False
+        for i in numbers:
+            if i < 0 or i > len(numbers) - 1:
+                return False
+        repeatedNums = []
+        for i in range(len(numbers)):
+            while numbers[i] != i:
+                if numbers[i] == numbers[numbers[i]]:
+                    repeatedNums.append(numbers[i])
+                    break
+                else:
+                    index = numbers[i]
+                    numbers[i], numbers[index] = numbers[index], numbers[i]
+        return repeatedNums
 
 test = [2, 3, 1, 0, 2, 5, 3]
 s = Solution()
 dupulication = [0]
 print(s.duplicate(test,dupulication))
+print(s.duplicate2(test))

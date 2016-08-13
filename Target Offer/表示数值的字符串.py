@@ -26,8 +26,6 @@ class Solution:
 
     def scanDigit(self, alist):
         dotNum = 0
-        signNum = 0
-        flag = True
         allowVal = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '.', 'e']
         for i in range(len(alist)):
             if alist[i] not in allowVal:
@@ -36,11 +34,9 @@ class Solution:
                 dotNum += 1
             if alist[i] in '+-' and i != 0:
                 return False
-            if alist[i] in '+-':
-                signNum += 1
-        if signNum > 1 or dotNum > 1:
+        if dotNum > 1:
             return False
-        return flag
+        return True
 
     # Python trick
     def isNumeric2(self, s):

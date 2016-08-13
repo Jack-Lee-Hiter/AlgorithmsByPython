@@ -9,16 +9,21 @@
 class Solution:
     # s, pattern都是字符串
     def match(self, s, pattern):
+        if not s or not pattern:
+            return False
         # 如果s和pattern匹配, 直接True
         if s == pattern:
             return True
         # 如果pattern为'', 因为s和pattern不相等, 直接False
         elif pattern == '':
             return False
-        # 当s为'', 如果pattern长度为1, 或者pattern第二个字符不是*, 则pattern不可能为空, 返回False
+        # 当s为'', 如果pattern为'.', 则返回True
+        # 当s为'', 如果pattern长度为1且不为'.', 或者pattern第二个字符不是*, 则pattern不可能为空, 返回False
         # 若pattern长度不为1, 且第二个字符为*, pattern还有空的可能, 从第三个字符开始迭代
         elif s == '':
-            if len(pattern) == 1 or pattern[1] != '*':
+            if pattern == ".":
+                return True
+            elif len(pattern) == 1 or pattern[1] != '*':
                 return False
             else:
                 return self.match(s, pattern[2:])
@@ -41,9 +46,9 @@ class Solution:
                 return self.match(s, pattern[2:])
             else:
                 return self.match(s[1:], pattern) or self.match(s, pattern[2:]) or self.match(s[1:], pattern[2:])
-        # 除去上述情况, 如果pattenn第一位为 . , 或者 pattern[0] == s[0], 双方都右移一位
-        elif pattern[0] == '.' or pattern[0] == s[0]:
-            return self.match(s[1:], pattern[1:])
+        # 除去上述pattern不小于2情况, 只剩下pattern等于1的情况, 因此如果pattern为".", 而且s长度为1, 返回True
+        elif pattern == '.' and len(s) == 1:
+            return True
         return False
 
 
