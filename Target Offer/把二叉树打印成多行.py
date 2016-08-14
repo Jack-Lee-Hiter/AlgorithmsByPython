@@ -13,19 +13,36 @@ class Solution:
     def Print(self, pRoot):
         if pRoot == None:
             return []
-        nodes = []
-        tempNodes = []
+        nodes = [pRoot]
         result = []
-        nodes.append(pRoot)
         while nodes:
-            levelResult = []
+            curStack, nextStack = [], []
             for node in nodes:
-                levelResult.append(node.val)
-                if node.left != None:
-                    tempNodes.append(node.left)
-                if node.right != None:
-                    tempNodes.append(node.right)
-            result.append(levelResult)
-            nodes = tempNodes
-            tempNodes = []
+                curStack.append(node.val)
+                if node.left:
+                    nextStack.append(node.left)
+                if node.right:
+                    nextStack.append(node.right)
+            result.append(curStack)
+            nodes = nextStack
         return result
+
+
+pNode1 = TreeNode(8)
+pNode2 = TreeNode(6)
+pNode3 = TreeNode(10)
+pNode4 = TreeNode(5)
+pNode5 = TreeNode(7)
+pNode6 = TreeNode(9)
+pNode7 = TreeNode(11)
+
+pNode1.left = pNode2
+pNode1.right = pNode3
+pNode2.left = pNode4
+pNode2.right = pNode5
+pNode3.left = pNode6
+pNode3.right = pNode7
+
+S = Solution()
+aList = S.Print(pNode1)
+print(aList)
