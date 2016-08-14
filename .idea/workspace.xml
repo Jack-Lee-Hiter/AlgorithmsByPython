@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/数组中重复的数字.py" afterPath="$PROJECT_DIR$/Target Offer/数组中重复的数字.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/正则表达式匹配.py" afterPath="$PROJECT_DIR$/Target Offer/正则表达式匹配.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/表示数值的字符串.py" afterPath="$PROJECT_DIR$/Target Offer/表示数值的字符串.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/二叉树的下一个结点.py" afterPath="$PROJECT_DIR$/Target Offer/二叉树的下一个结点.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/对称的二叉树.py" afterPath="$PROJECT_DIR$/Target Offer/对称的二叉树.py" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +44,6 @@
       <list>
         <option value="$PROJECT_DIR$/Target Offer/链表中环的入口结点.py" />
         <option value="$PROJECT_DIR$/Target Offer/删除链表中重复的结点.py" />
-        <option value="$PROJECT_DIR$/Target Offer/二叉树的下一个结点.py" />
-        <option value="$PROJECT_DIR$/Target Offer/对称的二叉树.py" />
         <option value="$PROJECT_DIR$/Target Offer/按之字形顺序打印二叉树.py" />
         <option value="$PROJECT_DIR$/Target Offer/把二叉树打印成多行.py" />
         <option value="$PROJECT_DIR$/Target Offer/序列化二叉树.py" />
@@ -94,6 +91,8 @@
         <option value="$PROJECT_DIR$/Target Offer/数组中重复的数字.py" />
         <option value="$PROJECT_DIR$/Target Offer/正则表达式匹配.py" />
         <option value="$PROJECT_DIR$/Target Offer/表示数值的字符串.py" />
+        <option value="$PROJECT_DIR$/Target Offer/二叉树的下一个结点.py" />
+        <option value="$PROJECT_DIR$/Target Offer/对称的二叉树.py" />
       </list>
     </option>
   </component>
@@ -176,24 +175,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.数组中重复的数字">
-    <configuration default="false" name="和为s的连续整数序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/和为s的连续整数序列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.对称的二叉树">
     <configuration default="false" name="n个骰子的点数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +240,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数组中重复的数字.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="对称的二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/对称的二叉树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -397,19 +396,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.和为s的连续整数序列" />
-      <item index="1" class="java.lang.String" itemvalue="Python.n个骰子的点数" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MapReduce_and_filter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.二维数组查找" />
-      <item index="4" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
+      <item index="0" class="java.lang.String" itemvalue="Python.n个骰子的点数" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MapReduce_and_filter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.二维数组查找" />
+      <item index="3" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
+      <item index="4" class="java.lang.String" itemvalue="Python.对称的二叉树" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
-        <item index="1" class="java.lang.String" itemvalue="Python.二维数组查找" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MapReduce_and_filter" />
-        <item index="3" class="java.lang.String" itemvalue="Python.n个骰子的点数" />
-        <item index="4" class="java.lang.String" itemvalue="Python.和为s的连续整数序列" />
+        <item index="0" class="java.lang.String" itemvalue="Python.对称的二叉树" />
+        <item index="1" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
+        <item index="2" class="java.lang.String" itemvalue="Python.二维数组查找" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MapReduce_and_filter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.n个骰子的点数" />
       </list>
     </recent_temporary>
   </component>
@@ -489,20 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/数据流中的中位数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target Offer/矩阵中的路径.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -842,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,6 +834,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/二叉树的下一个结点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/对称的二叉树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
           <folding />
         </state>
       </provider>

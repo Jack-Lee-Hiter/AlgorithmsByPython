@@ -20,4 +20,71 @@ class Solution:
         if pRoot1.val != pRoot2.val:
             return False
         return self.selfIsSymmetrical(pRoot1.left, pRoot2.right) and self.selfIsSymmetrical(pRoot1.right, pRoot2.left)
+# 非递归实现判断二叉树是否对称
+# 利用前序遍历
+class Solution2:
+    def isSymmetrical(self, pRoot):
+        preList = self.preOrder(pRoot)
+        mirrorList = self.mirrorPreOrder(pRoot)
+        if preList == mirrorList:
+            return True
+        return False
 
+    def preOrder(self, pRoot):
+        if pRoot == None:
+            return [None]
+        treeStack = []
+        output = []
+        pNode = pRoot
+        while pNode or len(treeStack) > 0:
+            while pNode:
+                treeStack.append(pNode)
+                output.append(pNode.val)
+                pNode = pNode.left
+                if not pNode:
+                    output.append(None)
+            if len(treeStack):
+                pNode = treeStack.pop()
+                pNode = pNode.right
+                if not pNode:
+                    output.append(None)
+        return output
+
+    def mirrorPreOrder(self, pRoot):
+        if pRoot == None:
+            return [None]
+        treeStack = []
+        output = []
+        pNode = pRoot
+        while pNode or len(treeStack) > 0:
+            while pNode:
+                treeStack.append(pNode)
+                output.append(pNode.val)
+                pNode = pNode.right
+                if not pNode:
+                    output.append(None)
+            if len(treeStack):
+                pNode = treeStack.pop()
+                pNode = pNode.left
+                if not pNode:
+                    output.append(None)
+        return output
+
+pNode1 = TreeNode(8)
+pNode2 = TreeNode(6)
+pNode3 = TreeNode(10)
+pNode4 = TreeNode(5)
+pNode5 = TreeNode(7)
+pNode6 = TreeNode(9)
+pNode7 = TreeNode(11)
+
+pNode1.left = pNode2
+pNode1.right = pNode3
+pNode2.left = pNode4
+pNode2.right = pNode5
+pNode3.left = pNode6
+pNode3.right = pNode7
+
+S = Solution2()
+result = S.isSymmetrical(pNode1)
+print(result)
