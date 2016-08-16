@@ -30,7 +30,7 @@ class Solution:
         for i in range(len(array)):
             if i == 0 or aList[i-1] <= 0:
                 aList[i] = array[i]
-            elif i != 0 and aList[i-1] > 0:
+            else:
                 aList[i] = aList[i-1] + array[i]
         return max(aList)
 
