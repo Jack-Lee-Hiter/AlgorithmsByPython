@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AwesomeAlgorithms/CatalanNumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AwesomeAlgorithms/最长公共子串_DP问题.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AwesomeAlgorithms/最长公共子序列LCS_DP问题.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/300. Longest Increasing Subsequence.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/连续子数组的最大和.py" afterPath="$PROJECT_DIR$/Target Offer/连续子数组的最大和.py" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +26,22 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="最长公共子串_DP问题.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="最长公共子串_DP问题.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeAlgorithms/最长公共子串_DP问题.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="300. Longest Increasing Subsequence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/300. Longest Increasing Subsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -55,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/5. Longest Palindromic Substring.py" />
         <option value="$PROJECT_DIR$/tesst.py" />
         <option value="$PROJECT_DIR$/heapSort.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming.py" />
@@ -106,6 +112,7 @@
         <option value="$PROJECT_DIR$/AwesomeAlgorithms/最长公共子序列LCS_DP问题.py" />
         <option value="$PROJECT_DIR$/Target Offer/连续子数组的最大和.py" />
         <option value="$PROJECT_DIR$/AwesomeAlgorithms/最长公共子串_DP问题.py" />
+        <option value="$PROJECT_DIR$/leetcode/300. Longest Increasing Subsequence.py" />
       </list>
     </option>
   </component>
@@ -139,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,7 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Target Offer" />
+              <option name="myItemId" value="leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -188,6 +194,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -202,24 +209,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.最长公共子串_DP问题">
-    <configuration default="false" name="KMP算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AwesomeAlgorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AwesomeAlgorithms/KMP算法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.300. Longest Increasing Subsequence">
     <configuration default="false" name="CatalanNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,6 +274,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/连续子数组的最大和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="300. Longest Increasing Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/300. Longest Increasing Subsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -423,19 +430,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.KMP算法" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CatalanNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Python.最长公共子序列LCS_DP问题" />
-      <item index="3" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
-      <item index="4" class="java.lang.String" itemvalue="Python.连续子数组的最大和" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CatalanNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Python.最长公共子序列LCS_DP问题" />
+      <item index="2" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
+      <item index="3" class="java.lang.String" itemvalue="Python.连续子数组的最大和" />
+      <item index="4" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
-        <item index="1" class="java.lang.String" itemvalue="Python.连续子数组的最大和" />
-        <item index="2" class="java.lang.String" itemvalue="Python.最长公共子序列LCS_DP问题" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CatalanNumber" />
-        <item index="4" class="java.lang.String" itemvalue="Python.KMP算法" />
+        <item index="0" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
+        <item index="2" class="java.lang.String" itemvalue="Python.连续子数组的最大和" />
+        <item index="3" class="java.lang.String" itemvalue="Python.最长公共子序列LCS_DP问题" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CatalanNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +466,7 @@
     <frame x="979" y="0" width="941" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847682" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -515,13 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/带锁的门.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/divideAndConquer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -796,17 +796,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1851">
             <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce_and_filter.py">
@@ -820,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="32" selection-start-line="4" selection-start-column="0" selection-end-line="85" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,6 +875,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300. Longest Increasing Subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
           <folding />
         </state>
       </provider>
