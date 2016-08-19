@@ -37,10 +37,10 @@ class Solution:
             return
         if length == 1:
             return alist
-        for i in range((length-1)//2, -1, -1):
+        for i in range(length//2-1, -1, -1):
             k = i; temp = alist[k]; heap = False
-            while not heap and 2*k <= length-1:
-                index = 2*k
+            while not heap and 2*k < length-1:
+                index = 2*k+1
                 if index < length - 1:
                     if alist[index] < alist[index + 1]: index += 1
                 if temp >= alist[index]: heap = True
@@ -55,10 +55,10 @@ class Solution:
             return
         if length == 1:
             return alist
-        for i in range((length - 1) // 2, -1, -1):
+        for i in range(length//2-1, -1, -1):
             k = i; temp = alist[k]; heap = False
-            while not heap and 2 * k <= length - 1:
-                index = 2 * k
+            while not heap and 2 * k < length - 1:
+                index = 2 * k+1
                 if index < length - 1:
                     if alist[index] > alist[index + 1]: index += 1
                 if temp <= alist[index]:
