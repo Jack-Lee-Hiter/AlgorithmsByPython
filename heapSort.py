@@ -8,7 +8,7 @@ def heapSort(alist):
         for j in range(tempLen//2-1, -1, -1):
             preIndex = j
             preVal, heap = alist[preIndex], False
-            while 2 * preIndex <= tempLen - 1 and not heap:
+            while 2 * preIndex < tempLen - 1 and not heap:
                 curIndex = 2 * preIndex + 1
                 if curIndex < tempLen - 1:
                     if alist[curIndex] < alist[curIndex+1]:
