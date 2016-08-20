@@ -38,5 +38,20 @@ def matchTable(aList):
         else:
             index += 1
     return table
+# 更具有一般性的字符移动表
+def matchTable2(aList):
+    length = len(aList)
+    table = [0]*length
+    index = 1
+    while index < length:
+        sameLen = 0
+        while index+sameLen < length and aList[sameLen] == aList[index+sameLen]:
+            sameLen += 1
+            table[index+sameLen-1] = sameLen
+        if sameLen != 0:
+            index += sameLen
+        else:
+            index += 1
+    return table
 
 print(kmp('aaaaa', 'aa'))
