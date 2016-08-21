@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/21. Merge Two Sorted Lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/292. Nim Game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/344. Reverse String.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/13. Roman to Integer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
@@ -28,7 +26,18 @@
     <favorites_list name="AlgorithmsByPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="13. Roman to Integer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/13. Roman to Integer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Target Offer/带锁的门.py" />
         <option value="$PROJECT_DIR$/leetcode/3. Longest Substring Without Repeating Characters.py" />
         <option value="$PROJECT_DIR$/Target Offer/找出字符串中重复出现的最长子串.py" />
         <option value="$PROJECT_DIR$/Target Offer/转换字符串格式.py" />
@@ -94,6 +102,7 @@
         <option value="$PROJECT_DIR$/leetcode/21. Merge Two Sorted Lists.py" />
         <option value="$PROJECT_DIR$/leetcode/344. Reverse String.py" />
         <option value="$PROJECT_DIR$/leetcode/292. Nim Game.py" />
+        <option value="$PROJECT_DIR$/leetcode/13. Roman to Integer.py" />
       </list>
     </option>
   </component>
@@ -127,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,8 +172,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,24 +185,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.344. Reverse String">
-    <configuration default="false" name="最长公共子串_DP问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AwesomeAlgorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AwesomeAlgorithms/最长公共子串_DP问题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.13. Roman to Integer">
     <configuration default="false" name="300. Longest Increasing Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +250,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/344. Reverse String.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="13. Roman to Integer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/13. Roman to Integer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -397,19 +406,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
-      <item index="1" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1. Two Sum" />
-      <item index="3" class="java.lang.String" itemvalue="Python.15. 3Sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.344. Reverse String" />
+      <item index="0" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1. Two Sum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.344. Reverse String" />
+      <item index="4" class="java.lang.String" itemvalue="Python.13. Roman to Integer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.344. Reverse String" />
-        <item index="1" class="java.lang.String" itemvalue="Python.15. 3Sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1. Two Sum" />
-        <item index="3" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.最长公共子串_DP问题" />
+        <item index="0" class="java.lang.String" itemvalue="Python.13. Roman to Integer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.344. Reverse String" />
+        <item index="2" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1. Two Sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -431,9 +440,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1082" y="0" width="838" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375765" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375765" sideWeight="0.495283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -489,13 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/分治法解决最近对问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -728,6 +730,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1851">
@@ -735,9 +740,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce_and_filter.py">
@@ -821,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,6 +851,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/13. Roman to Integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
