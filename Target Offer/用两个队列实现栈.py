@@ -7,9 +7,7 @@ class Solution:
         self.queue1 = []
         self.queue2 = []
     def push(self, x):
-        if self.queue1 == [] and self.queue2 == []:
-            self.queue1.append(x)
-        elif self.queue1 != [] and self.queue2 == []:
+        if self.queue2 == []:
             self.queue1.append(x)
         else:
             self.queue2.append(x)
