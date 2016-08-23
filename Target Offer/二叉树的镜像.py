@@ -14,16 +14,15 @@ class Solution:
         if root == None:
             return
         if root.left == None and root.right == None:
-            return
+            return root
 
         pTemp = root.left
         root.left = root.right
         root.right = pTemp
 
-        if root.left:
-            self.Mirror(root.left)
-        if root.right:
-            self.Mirror(root.right)
+        self.Mirror(root.left)
+        self.Mirror(root.right)
+
     # 非递归实现
     def Mirror2(self, root):
         if root == None:
@@ -58,7 +57,6 @@ class Solution:
                     nodeQue.append(pRoot.left)
                 if pRoot.right:
                     nodeQue.append(pRoot.right)
-            return
 
 pNode1 = TreeNode(8)
 pNode2 = TreeNode(6)
