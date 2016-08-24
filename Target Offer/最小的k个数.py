@@ -57,12 +57,19 @@ class Solution:
             if len(output) < k:
                 output.append(number)
             else:
-                output = heapq.nsmallest(k, output)
-                if number >= output[-1]:
+                # 构造最小堆， 不推荐
+                # output = heapq.nsmallest(k, output)
+                # if number >= output[-1]:
+                #     continue
+                # else:
+                #     output[-1] = number
+                # 构造最大堆， 推荐
+                output = heapq.nlargest(k, output)
+                if number >= output[0]:
                     continue
                 else:
-                    output[-1] = number
-        return output
+                    output[0] = number
+        return output[::-1]     # 最小堆用 return output
 tinput = [4,5,1,6,2,7,3,8]
 s = Solution()
 print(s.GetLeastNumbers_Solution(tinput, 4))
