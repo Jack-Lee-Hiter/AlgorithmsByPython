@@ -16,3 +16,26 @@ class Solution:
             return 0
         else:
             return max(self.TreeDepth(pRoot.left), self.TreeDepth(pRoot.right)) + 1
+    # 非递归算法，利用一个栈以及一个标志位栈
+    def TreeDepth2(self, pRoot):
+        if not pRoot:
+            return 0
+        depth = 0
+        stack, tag = [], []
+        pNode = pRoot
+        while pNode or stack:
+            while pNode:
+                stack.append(pNode)
+                tag.append(0)
+                pNode = pNode.left
+            if tag[-1] == 1:
+                depth = max(depth, len(stack))
+                stack.pop()
+                tag.pop()
+                pNode = None
+            else:
+                pNode = stack[-1]
+                pNode = pNode.right
+                tag.pop()
+                tag.append(1)
+        return depth
