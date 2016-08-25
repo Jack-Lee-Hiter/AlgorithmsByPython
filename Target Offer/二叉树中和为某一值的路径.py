@@ -10,27 +10,35 @@ class TreeNode:
         self.right = None
 class Solution:
     # 返回二维列表，内部每个列表表示找到的路径
-    def FindPath(self, root, expectNumber):
-        if root == None or root.val > expectNumber:
+    def FindPath(self, root, sum):
+        if not root:
             return []
-        elif root.val == expectNumber:
-            if root.left or root.right:
-                return []                   # 因为路径的定义是从根节点到叶节点所经过的结点, 如果是根结点到任意可到达结点的和为待求值, 可以去掉这个判定
+        if root.left == None and root.right == None:
+            if sum == root.val:
+                return [[root.val]]
             else:
-                return [[expectNumber]]
-
+                return []
         stack = []
-        if root.left:
-            stackLeft = self.FindPath(root.left, expectNumber-root.val)
-            for i in stackLeft:
-                i.insert(0, root.val)
-                stack.append(i)
-        if root.right:
-            stackRight = self.FindPath(root.right, expectNumber-root.val)
-            for i in stackRight:
-                i.insert(0, root.val)
-                stack.append(i)
+        leftStack = self.pathSum(root.left, sum - root.val)
+        for i in leftStack:
+            i.insert(0, root.val)
+            stack.append(i)
+        rightStack = self.pathSum(root.right, sum - root.val)
+        for i in rightStack:
+            i.insert(0, root.val)
+            stack.append(i)
         return stack
+
+    # 优化写法
+    def pathSum(self, root, sum):
+        if not root: return []
+        if root.left == None and root.right == None:
+            if sum == root.val:
+                return [[root.val]]
+            else:
+                return []
+        a = self.pathSum(root.left, sum - root.val) + self.pathSum(root.right, sum - root.val)
+        return [[root.val] + i for i in a]
 
 pNode1 = TreeNode(10)
 pNode2 = TreeNode(5)
@@ -47,3 +55,5 @@ pNode2.right = pNode5
 
 S = Solution()
 print(S.FindPath(pNode1, 22))
+# 测试用例：[1,-2,-3,1,3,-2,null,-1]  -1
+# 测试用例：[-2, None, -3] -5
