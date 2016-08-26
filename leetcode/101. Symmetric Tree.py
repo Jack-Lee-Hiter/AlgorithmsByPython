@@ -25,10 +25,11 @@ class TreeNode(object):
 class Solution(object):
     # recursive
     def isSymmetric(self, root):
-        return self.selfIsSymmetrical(root, root)
-    def selfIsSymmetrical(self, pRoot1, pRoot2):
+        return self._Symmetrical(root, root)
+    def _Symmetrical(self, pRoot1, pRoot2):
         if pRoot1 and pRoot2:
-            return pRoot1.val == pRoot2.val and self.selfIsSymmetrical(pRoot1.left, pRoot2.right) and self.selfIsSymmetrical(pRoot1.right, pRoot2.left)
+            return pRoot1.val == pRoot2.val and self._Symmetrical(pRoot1.left, pRoot2.right) and self._Symmetrical(
+                pRoot1.right, pRoot2.left)
         else:
             return pRoot1 == pRoot2
 
@@ -42,6 +43,21 @@ class Solution(object):
                     return False
                 else:
                     now = [j for i in now if i for j in (i.left, i.right)]
+        return True
+    # modify iterative(BFS)
+    def isSymmetric_2(self, root):
+        if root:
+            nodeStack = [root]
+            while nodeStack:
+                vals = [node.val if node else None for node in nodeStack]
+                if list(reversed(vals)) != vals:
+                    return False
+                else:
+                    preStack = [node for node in nodeStack if node]
+                    nodeStack = []
+                    for preNode in preStack:
+                        nodeStack.append(preNode.left)
+                        nodeStack.append(preNode.right)
         return True
 
     # iterative(DFS)

@@ -10,11 +10,10 @@ class TreeNode:
         self.right = None
 class Solution:
     # 返回二维列表[[1,2],[4,5]]
-    def Print(self, pRoot):
+    def levelOrder(self, pRoot):
         if pRoot == None:
             return []
-        nodes = [pRoot]
-        result = []
+        nodes, res = [pRoot], []
         while nodes:
             curStack, nextStack = [], []
             for node in nodes:
@@ -23,9 +22,9 @@ class Solution:
                     nextStack.append(node.left)
                 if node.right:
                     nextStack.append(node.right)
-            result.append(curStack)
+            res.append(curStack)
             nodes = nextStack
-        return result
+        return res
 
 
 pNode1 = TreeNode(8)
