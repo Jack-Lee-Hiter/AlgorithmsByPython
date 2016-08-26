@@ -16,12 +16,12 @@ class Solution:
         if pSlow == None:
             return None
         pFast = pSlow.next
-        while pSlow != None and pFast != None:
+        while pFast:
             if pSlow == pFast:
                 return pSlow
             pSlow = pSlow.next
             pFast = pFast.next
-            if pFast != None:
+            if pFast:
                 pFast = pFast.next
 
     def EntryNodeOfLoop(self, pHead):

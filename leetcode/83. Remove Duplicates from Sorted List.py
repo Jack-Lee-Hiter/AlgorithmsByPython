@@ -14,10 +14,6 @@ class ListNode(object):
 
 class Solution(object):
     def deleteDuplicates(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
         pNode = head
         while pNode:
             while pNode.next and pNode.next.val == pNode.val:
