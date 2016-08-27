@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/103. Binary Tree Zigzag Level Order Traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/230. Kth Smallest Element in a BST.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/297. Serialize and Deserialize Binary Tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/按之字形顺序打印二叉树.py" afterPath="$PROJECT_DIR$/Target Offer/按之字形顺序打印二叉树.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py" afterPath="$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="230. Kth Smallest Element in a BST.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="230. Kth Smallest Element in a BST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/230. Kth Smallest Element in a BST.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="239. Sliding Window Maximum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="滑动窗口的最大值.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -66,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Target Offer/n个骰子的点数.py" />
-        <option value="$PROJECT_DIR$/MapReduce_and_filter.py" />
         <option value="$PROJECT_DIR$/Target Offer/二维数组查找.py" />
         <option value="$PROJECT_DIR$/Target Offer/二叉树的最低公共祖先.py" />
         <option value="$PROJECT_DIR$/Target Offer/正则表达式匹配.py" />
@@ -117,6 +133,8 @@
         <option value="$PROJECT_DIR$/Target Offer/按之字形顺序打印二叉树.py" />
         <option value="$PROJECT_DIR$/leetcode/297. Serialize and Deserialize Binary Tree.py" />
         <option value="$PROJECT_DIR$/leetcode/230. Kth Smallest Element in a BST.py" />
+        <option value="$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py" />
+        <option value="$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.py" />
       </list>
     </option>
   </component>
@@ -182,6 +200,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmsByPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Target Offer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -199,24 +231,7 @@
       <recent name="$PROJECT_DIR$/SVM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.103. Binary Tree Zigzag Level Order Traversal">
-    <configuration default="false" name="数组中重复的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Target Offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsByPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Target Offer/数组中重复的数字.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.239. Sliding Window Maximum">
     <configuration default="false" name="二叉树中和为某一值的路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,6 +296,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsByPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/103. Binary Tree Zigzag Level Order Traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="239. Sliding Window Maximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsByPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -431,19 +463,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
-      <item index="1" class="java.lang.String" itemvalue="Python.二叉树中和为某一值的路径" />
-      <item index="2" class="java.lang.String" itemvalue="Python.从上往下打印二叉树" />
-      <item index="3" class="java.lang.String" itemvalue="Python.106. Construct Binary Tree from Inorder and Postorder Traversal" />
-      <item index="4" class="java.lang.String" itemvalue="Python.103. Binary Tree Zigzag Level Order Traversal" />
+      <item index="0" class="java.lang.String" itemvalue="Python.二叉树中和为某一值的路径" />
+      <item index="1" class="java.lang.String" itemvalue="Python.从上往下打印二叉树" />
+      <item index="2" class="java.lang.String" itemvalue="Python.106. Construct Binary Tree from Inorder and Postorder Traversal" />
+      <item index="3" class="java.lang.String" itemvalue="Python.103. Binary Tree Zigzag Level Order Traversal" />
+      <item index="4" class="java.lang.String" itemvalue="Python.239. Sliding Window Maximum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.103. Binary Tree Zigzag Level Order Traversal" />
-        <item index="1" class="java.lang.String" itemvalue="Python.106. Construct Binary Tree from Inorder and Postorder Traversal" />
-        <item index="2" class="java.lang.String" itemvalue="Python.从上往下打印二叉树" />
-        <item index="3" class="java.lang.String" itemvalue="Python.二叉树中和为某一值的路径" />
-        <item index="4" class="java.lang.String" itemvalue="Python.数组中重复的数字" />
+        <item index="0" class="java.lang.String" itemvalue="Python.239. Sliding Window Maximum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.103. Binary Tree Zigzag Level Order Traversal" />
+        <item index="2" class="java.lang.String" itemvalue="Python.106. Construct Binary Tree from Inorder and Postorder Traversal" />
+        <item index="3" class="java.lang.String" itemvalue="Python.从上往下打印二叉树" />
+        <item index="4" class="java.lang.String" itemvalue="Python.二叉树中和为某一值的路径" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +504,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31785345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31785345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.504717" order="2" side_tool="true" content_ui="tabs" />
@@ -523,20 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/对称的二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target Offer/二叉搜索树的第k个结点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/MapReduce_and_filter.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -869,6 +887,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target Offer/滑动窗口的最大值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>

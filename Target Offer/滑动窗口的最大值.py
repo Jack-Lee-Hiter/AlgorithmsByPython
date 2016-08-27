@@ -9,7 +9,7 @@
 # -*- coding:utf-8 -*-
 class Solution:
     def maxInWindows(self, num, size):
-        if num == None or len(num) <= 0 or size <= 0:
+        if not num or size <= 0:
             return []
         deque = []
         if len(num) >= size:
