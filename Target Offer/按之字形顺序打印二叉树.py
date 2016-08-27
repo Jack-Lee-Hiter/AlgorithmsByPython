@@ -10,34 +10,52 @@ class TreeNode:
         self.left = None
         self.right = None
 class Solution:
+    # 存储点的时候按照奇数层和偶数层分别存储
     def Print(self, pRoot):
-        if pRoot == None:
+        if not pRoot:
             return []
-        result = []
-        nodes = [pRoot]
-        right, left = True, False
+        result, nodes = [], [pRoot]
+        right = True
         while nodes:
-            currentStack = []
-            nextStack = []
+            curStack, nextStack = [], []
             if right:
                 for node in nodes:
-                    currentStack.append(node.val)
-                    if node.left != None:
+                    curStack.append(node.val)
+                    if node.left:
                         nextStack.append(node.left)
-                    if node.right != None:
+                    if node.right:
                         nextStack.append(node.right)
-                nextStack.reverse()
-            elif left:
+            else:
                 for node in nodes:
-                    currentStack.append(node.val)
-                    if node.right != None:
+                    curStack.append(node.val)
+                    if node.right:
                         nextStack.append(node.right)
-                    if node.left != None:
+                    if node.left:
                         nextStack.append(node.left)
-                nextStack.reverse()
-            right, left = left, right
-            result.append(currentStack)
+            nextStack.reverse()
+            right = not right
+            result.append(curStack)
             nodes = nextStack
+        return result
+    # 转换思路，存储的时候一直从左向右存储，打印的时候根据不同的层一次打印
+    def zigzagLevelOrder(self, root):
+        if not root:
+            return []
+        levels, result, leftToRight = [root], [], True
+        while levels:
+            curValues, nextLevel = [], []
+            for node in levels:
+                curValues.append(node.val)
+                if node.left:
+                    nextLevel.append(node.left)
+                if node.right:
+                    nextLevel.append(node.right)
+            if not leftToRight:
+                curValues.reverse()
+            if curValues:
+                result.append(curValues)
+            levels = nextLevel
+            leftToRight = not leftToRight
         return result
 
 
