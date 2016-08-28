@@ -1,0 +1,40 @@
+'''
+Given a list, rotate the list to the right by k places, where k is non-negative.
+
+For example:
+Given 1->2->3->4->5->NULL and k = 2,
+return 4->5->1->2->3->NULL.
+'''
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+class Solution(object):
+    def rotateRight(self, head, k):
+        ref = head
+        length = 0
+
+        while head:
+            head = head.next
+            length += 1
+
+        if length < 2 or k % length == 0:
+            return ref
+
+        prev = None
+        current = ref
+        for _ in xrange(length - (k % length)):
+            prev, current = current, current.next
+
+        prev.next = None
+        new_head = current
+
+        if not current: 
+            return ref
+        while current.next:
+            current = current.next
+        current.next = ref
+
+        return new_head
