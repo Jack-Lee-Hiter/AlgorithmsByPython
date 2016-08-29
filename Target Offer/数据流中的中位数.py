@@ -12,10 +12,9 @@ class Solution:
     def Insert(self, num):
         if self.count & 1 == 0:
             self.left.append(num)
-            self.count += 1
         else:
             self.right.append(num)
-            self.count += 1
+        self.count += 1
 
     def GetMedian(self, x):
         if self.count == 1:

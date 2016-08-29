@@ -1,12 +1,12 @@
 # 解决动态规划中的找零问题
 # 输入需要找零的金额和货币的币值向量
 # 输出满足找零条件的最少的硬币个数
-def ChangeMaking(coinValueList, change):
+def ChangeMaking(coinVal, change):
     alist = [0]*(change+1)
     for i in range(1, change+1):
         temp = change; j = 0
-        while j <= len(coinValueList)-1 and i >= coinValueList[j]:
-            temp = min(alist[i-coinValueList[j]], temp)
+        while j <= len(coinVal)-1 and i >= coinVal[j]:
+            temp = min(alist[i-coinVal[j]], temp)
             j += 1
         alist[i] = temp + 1
     return alist.pop()
