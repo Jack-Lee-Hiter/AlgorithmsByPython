@@ -24,29 +24,80 @@ two = Myclass()
 # one和two完全相同, 可以用id(), ==, is检测
 print(id(one))
 print(id(two))
-print(one == two)
-print(one is two)
+print(one == two)       # True
+print(one is two)       # True
+
+two.a = 3
+print(one.a)    # 3
 
 '''
-方法1的升级版, 使用__metaclass__元类的高级python用法
+方法2：共享属性；所谓单例就是所有引用（实例、对象）拥有相同的的状态（属性）和行为（方法）
+同一个类的所有实例天然拥有相同的行为（方法）
+只需要保证一个类的所有实例具有相同的状态（属性）即可
+所有实例共享属性的最简单方法就是__dict__属性指向（引用）同一个字典（dict）
 '''
-class Singleton2(type):
-    def __init__(cls, name, bases, dict):
-        super(Singleton2, cls).__init__(name, bases, dict)
-        cls._instance = None
-    def __call__(cls, *args, **kwargs):
-        if cls._instance is None:
-            cls._instance = super(Singleton2, cls).__call__(*args, **kwargs)
-        return cls._instance
-
-class Myclass2(object):
-    __metaclass__ = Singleton2
+class Borg(object):
+    _state = {}
+    def __new__(cls, *args, **kwargs):
+        ob = super(Borg, cls).__new__(cls, *args, **kwargs)
+        ob.__dict__ = cls._state
+        return ob
+class MyClass2(Borg):
     a = 1
+one = MyClass2()
+two = MyClass2()
+two.a = 3
+print(one.a)
+# one 和 two 是两个不同的对象，id，==，is对比结果可以看出
+print(id(one))          # 18410480
+print(id(two))          # 18410512
+print(one == two)       # False
+print(one is two)       # False
+# 但是one和two具有相同的（同一个）__dict__属性
+print(id(one.__dict__)) # 14194768
+print(id(two.__dict__)) # 14194768
 
-one = Myclass2()
-two = Myclass2()
+'''
+方法3：装饰器版本decorator
+这是一种更pythonic，更elegant的方法
+单例类本身根本不知道自己是单例的，因为他自己的代码并不是单例的
+'''
+def singleton(cls, *args, **kwargs):
+    instances = {}
+    def getinstance():
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return getinstance
+@singleton
+class MyClass3(object):
+    a = 1
+    def __init__(self, x = 0):
+        self.x = x
 
-print(id(one))
-print(id(two))
-print(one == two)
-print(one is two)
+one = MyClass3()
+two = MyClass3()
+two.a = 3
+print(one.a)            # 3
+print(id(one))          # 8842576
+print(id(two))          # 8842576
+print(one == two)       # True
+print(one is two)       # True
+one.x = 1
+print(one.x)            # 1
+print(two.x)            # 1
+
+'''
+方法4：import方法
+python中的模块module在程序中只被加载一次，本身就是单例的
+可以直接写一个模块，将你需要的方法和属性，写在模块中当做函数和模块作用域的全局变量即可，根本不需要写类。
+'''
+# mysingleton.py
+# class My_Singleton(object):
+#     def foo(self):
+#         pass
+# my_singleton = My_Singleton()
+
+# to use
+from mysingleton import my_singleton
+my_singleton.foo()
