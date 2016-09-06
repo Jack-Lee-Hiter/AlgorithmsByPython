@@ -1,0 +1,35 @@
+'''
+Reverse digits of an integer.
+
+Example1: x = 123, return 321
+Example2: x = -123, return -321
+
+'''
+
+class Solution(object):
+    def reverse(self, x):
+        res = int(str(abs(x))[::-1])
+        if x < 0:
+            res = -res
+        if res > 2147483647 or res < -2147483648:
+            res = 0
+        return res
+    # without str()
+    def reverse2(self, x):                                                                                                 from math import log                                                                                                                                                                                                        
+        if x < 10 and x > -10:                                                                                    
+            return x                                                                                                                                                                                                                
+        flipped = False                                                                                                                                                                                                             
+        if x < 0:                                                                                                 
+            flipped = True                                                                                        
+            x *= -1                                                                                                                                                                                                                 
+        res = 0                                                                                                   
+        log10 = int(log(x, 10))                                                                                                                                                                                                     
+        for i in xrange(log10 + 1):                                                                               
+            digit = x % 10                                                                                       
+            res += digit * 10**(log10 - i)                                                                        
+            x /= 10                                                                                                                                                                                                                                                                                                                               
+        if res > 2**31 - 1 or res < -1 * 2**31 + 1:                                                               
+            return 0                                                                                                                                                                                                                
+        if flipped:                                                                                               
+            res *= -1                                                                                                                                                                                                              
+        return res  
