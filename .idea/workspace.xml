@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55473988-3461-4c6d-b356-d29ffb1de7a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/226. Invert Binary Tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/143. Reorder List.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsByPython.iws" />
@@ -83,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AwesomeAlgorithms/BoyerMoore算法.py" />
         <option value="$PROJECT_DIR$/AwesomeAlgorithms/KMP算法.py" />
         <option value="$PROJECT_DIR$/AwesomeAlgorithms/Sunday算法.py" />
         <option value="$PROJECT_DIR$/AwesomeAlgorithms/manacher算法.py" />
@@ -134,6 +133,7 @@
         <option value="$PROJECT_DIR$/Target Offer/字符串具有相同字符的最长子串.py" />
         <option value="$PROJECT_DIR$/Target Offer/句子中单词首字母大写.py" />
         <option value="$PROJECT_DIR$/leetcode/226. Invert Binary Tree.py" />
+        <option value="$PROJECT_DIR$/leetcode/143. Reorder List.py" />
       </list>
     </option>
   </component>
@@ -169,6 +169,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,7 +204,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,13 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Target Offer/连续子数组的最大和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1. Two Sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -888,6 +881,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/143. Reorder List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>
