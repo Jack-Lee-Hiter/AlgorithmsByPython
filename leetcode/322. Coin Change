@@ -1,0 +1,41 @@
+'''
+You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+
+Example 1:
+coins = [1, 2, 5], amount = 11
+return 3 (11 = 5 + 5 + 1)
+
+Example 2:
+coins = [2], amount = 3
+return -1.
+
+Note:
+You may assume that you have an infinite number of each kind of coin.
+'''
+class Solution(object):
+    def coinChange(self, coins, amount):
+   #corner cases
+        if amount == 0:
+            return 0
+        if len(coins) == 1 and coins[0] > amount:
+            return -1
+        dp = [-1 for i in range(amount + 1)]
+        for i in range(1, amount + 1):
+        # if the value matches the coin
+            if i in coins:
+                dp[i] = 1
+            else:
+                minV = sys.maxsize
+        # since the size of coins are much less than the amount, 
+        # we check if for every coin there could be a solution and find the minimum of that
+                for j in coins:
+                    remain = i - j
+        # -1 means there is no solution, so we don't need to check if dp[i] is -1
+                    if remain > 0 and dp[remain] != -1:
+                        minV = min(minV, dp[remain])
+                if minV ==sys.maxsize:
+                    dp[i] = -1
+                else:
+                    dp[i] = minV + 1
+        return dp[-1]
+            
