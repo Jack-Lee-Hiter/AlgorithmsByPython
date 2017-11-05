@@ -29,6 +29,8 @@ class Solution:
         # 判断非法输入
         # 可以换成 isinstance(target, (int, float)) 进行判断
         if type(target) == float and type(array[0][0]) == int:
+            if int(target) == target:
+                return False
             target = int(target)
         elif type(target) == int and type(array[0][0]) == float:
             target = float(int)
