@@ -1,3 +1,5 @@
+# coding: utf-8
+
 def quickSort(alist):
     quickSortHelper(alist, 0, len(alist)-1)
 
@@ -16,9 +18,9 @@ def partition(alist, first, last):
     done = False
 
     while not done:
-        while alist[leftmark] <= pivotvlue and leftmark <= rightmark:
+        while leftmark <= rightmark and alist[leftmark] <= pivotvlue: # bugfix: 先比较index, 不然数组会越界
             leftmark += 1
-        while alist[rightmark] >= pivotvlue and rightmark >= leftmark:
+        while rightmark >= leftmark and alist[rightmark] >= pivotvlue:
             rightmark -= 1
 
         if leftmark > rightmark:
@@ -32,3 +34,13 @@ alist = [54,26,93,17,77,31,44,55,20]
 alist2 = [1]
 quickSort(alist2)
 print(alist2)
+
+
+if __name__ == "__main__":
+    test_data = [3,2,111,3,-1,0,0,1,0,2,4]
+
+    res_stable = sorted(test_data)
+    quickSort(test_data)
+    print(test_data)
+    print(res_stable)
+    assert all(map(lambda x: x[0] == x[1], zip(res_stable, test_data)))
