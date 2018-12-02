@@ -24,6 +24,24 @@ class Solution:
         root.right = self.reConstructBinaryTree(pre[i+1:], tin[i+1:])
         return root
 
+    # 采用中后序构造TreeNode根节点
+    def reConstructBinaryTree1(self, tin, post):
+        '''
+        返回构造 TreeNode 根节点
+        :param tin:  中序
+        :param post: 后序
+        :return:     根节点
+        '''
+        if not tin and not post:
+            return None
+        root = TreeNode(post[-1])
+        if set(tin) != set(post):
+            return None
+        i = tin.index(post[-1])
+        root.left = self.reConstructBinaryTree1(tin[:i], post[:i])
+        root.right = self.reConstructBinaryTree1(tin[i+1:], post[i:-1])
+        return root
+
 pre = [1, 2, 3, 5, 6, 4]
 tin = [5, 3, 6, 2, 4, 1]
 test = Solution()
@@ -55,3 +73,38 @@ def PrintNodeByLevel(treeNode, depth):
 
 PrintNodeByLevel(newTree, 5)
 # PrintNodeByLevel2(newTree)
+
+# 求树的深度
+def depth(tree):
+    if tree is None:
+        return 0
+    left, right=depth(tree.left), depth(tree.right)
+    return max(left, right)+1
+
+# print(depth(newTree1))
+
+
+# 按层次取出树的值
+def PrintNodeByLevel(tree):
+    currentLevel = [tree]
+    data = []
+    while currentLevel:
+        data.append([c.val for c in currentLevel])
+        nextLevel = []
+        for i in currentLevel:
+            if i.left:
+                nextLevel.append(i.left)
+            if i.right:
+                nextLevel.append(i.right)
+        currentLevel = nextLevel
+    return data
+
+# 根据前序和中序推出后序
+post = [5, 6, 3, 4, 2, 1]
+newTree2 = test.reConstructBinaryTree1(tin, post)
+print(PrintNodeByLevel(newTree))
+print(PrintNodeByLevel(newTree2))
+
+# 层次输出
+list(map(lambda x: print(x), PrintNodeByLevel(newTree)))
+
