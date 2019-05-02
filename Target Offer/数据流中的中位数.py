@@ -16,15 +16,15 @@ class Solution:
             self.right.append(num)
         self.count += 1
 
-    def GetMedian(self, x):
+    def GetMedian(self):
         if self.count == 1:
             return self.left[0]
         self.MaxHeap(self.left)
         self.MinHeap(self.right)
-        if self.left[0] > self.right[0]:
+        while self.left[0] > self.right[0]:
             self.left[0], self.right[0] = self.right[0], self.left[0]
-        self.MaxHeap(self.left)
-        self.MinHeap(self.right)
+            self.MaxHeap(self.left)
+            self.MinHeap(self.right)
         if self.count & 1 == 0:
             return (self.left[0] + self.right[0])/2.0
         else:
@@ -66,3 +66,11 @@ class Solution:
                     alist[k] = alist[index]
                     k = index
             alist[k] = temp
+            
+s = Solution()
+l = [4, 7, 0, 9, 1, 5, 3, 3, 2, 6]
+s.MaxHeap(l)
+print(l)
+for i in range(1,10):
+    s.Insert(i)
+s.GetMedian()
