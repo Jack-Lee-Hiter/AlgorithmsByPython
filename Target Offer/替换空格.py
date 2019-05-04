@@ -40,29 +40,35 @@ class Solution:
             return
         return s.replace(' ', '%20')
 
-    # 书中给的思路
+    # 书中给的思路，在原有字符串中替换，不许增加新的字符串
     # 判断输入类型的时候，isinstance必须首先判断，因为如果输入为integer的话，没有len，就会直接报错
     def replaceSpace3(self, s):
-        if not isinstance(s,str) or len(s) <= 0 or s == None:
-            return ""
+        if not isinstance(s, str) or len(s) <= 0 or s == 0:
+            return "出错了"
+    
         spaceNum = 0
         for i in s:
             if i == " ":
                 spaceNum += 1
+        
+        IndexOfOriginal = len(s) - 1
+        print(IndexOfOriginal)
 
-        newStrLen = len(s) + spaceNum * 2
-        newStr = newStrLen * [None]
-        indexOfOriginal, indexOfNew = len(s) - 1, newStrLen - 1
-        while indexOfNew >= 0 and indexOfNew >= indexOfOriginal:
-            if s[indexOfOriginal] == ' ':
-                newStr[indexOfNew-2:indexOfNew+1] = ['%', '2', '0']
-                indexOfNew -= 3
-                indexOfOriginal -= 1
+        s = list(s) + spaceNum*2*[None]  #替换空格增加三个元素，减少一个元素，实际上增加的是2个元素
+        IndexOfNew = len(s) - 1
+        
+        while IndexOfOriginal >=0 and IndexOfNew > IndexOfOriginal:
+            if s[IndexOfOriginal] == " ":
+                s[IndexOfNew - 2:IndexOfNew + 1] = ["%", "2", "0"]   #因为是左闭右开，所以这里要有一个加1
+                
+                IndexOfNew -=3
+                
             else:
-                newStr[indexOfNew] = s[indexOfOriginal]
-                indexOfNew -= 1
-                indexOfOriginal -= 1
-        return "".join(newStr)
+                s[IndexOfNew] = s[IndexOfOriginal]
+                IndexOfNew -= 1
+            IndexOfOriginal -= 1
+        s = str(s)
+        return "".join(s)
 
 
 s = 'we are happy'
