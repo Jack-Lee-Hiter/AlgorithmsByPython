@@ -75,6 +75,8 @@
 
 [面试题7：重建二叉树](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.py)：利用二叉树前序遍历和中序遍历的特性。前序遍历的第一个值一定为根节点，对应于中序遍历中间的一个点。在中序遍历序列中，这个点左侧的均为根的左子树，这个点右侧的均为根的右子树。这时可以利用递归，分别取前序遍历[1:i+1]和中序遍历的[:i]对应与左子树继续上一个过程，取前序遍历[i+1:]和中序遍历[i+1]对应于右子树继续上一个过程，最终得以重建二叉树。
 
+[面试题8：二叉树的下一个结点](https://github.com/Einstellung/AlgorithmsByPython/blob/master/Target%20Offer/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9.py)：三种情况：当前节点有右子树的话，当前节点的下一个结点是右子树中的最左子节点；当前节点无右子树但是是父节点的左子节点，下一个节点是当前结点的父节点；当前节点无右子树而且是父节点的右子节点，则一直向上遍历，直到找到最靠近的一个祖先节点pNode，pNode是其父节点的左子节点，那么输入节点的下一个结点就是pNode的父节点。
+
 [面试题9：用两个栈实现队列](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.py)：需要两个栈Stack1和Stack2，push的时候直接push进Stack1。pop需要判断Stack1和Stack2中元素的情况，Stack1空的话，直接从Stack2 pop，Stack1不空的话，把Stack1的元素push进入Stack2，然后pop Stack2的值。[推广：用两个队列实现栈](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E7%94%A8%E4%B8%A4%E4%B8%AA%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.py)
 
 [面试题8：旋转数组的最小数字](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.py)：二分查找的变形，注意到旋转数组的首元素肯定不小于旋转数组的尾元素，设置中间点。如果中间点大于首元素，说明最小数字在后面一半，如果中间点小于尾元素，说明最小数字在前一半。依次循环。同时，当一次循环中首元素小于尾元素，说明最小值就是首元素。但是当首元素等于尾元素等于中间值，只能在这个区域顺序查找。
@@ -182,8 +184,6 @@
 [面试题56：链表中环的入口结点](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%8E%AF%E7%9A%84%E5%85%A5%E5%8F%A3%E7%BB%93%E7%82%B9.py)：寻找链表中环的入口结点主要分成三个步骤：首先是设置两个快慢指针，如果快慢指针相遇，则快慢指针必然都在环中；然后从相遇的地方设置一个指针向后遍历并记录走的步数，当这个指针重新指到开始的位置的时候，当前对应的步数就是环中结点的数量k；然后设置两个指针从链表开始，第一个节点先走k步，然后第二个指针指到链表的开始，两个指针每次都向后走一步，两个指针相遇的位置就是链表的入口。
 
 [面试题57：删除链表中重复的结点](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E7%BB%93%E7%82%B9.py)：我们需要设置一个指针preNode，preNode最开始为None，然后设置两个指针，pNode指向当前节点，pNext指向pNode下一个结点，⓵如果pNext不为空而且pNext的值等于pNode的值，那么就说明出现了重复数字的结点，就需要删除，然后从pNode开始遍历，如果结点值等于前面那个重复值，继续遍历。当遍历到None或者不同值结点的时候，这时候需要判断preNode结点，如果preNode结点为None，就说明我们刚才的重复结点是从整个链表的头结点开始重复的，就直接把pHead设置为当前结点，pNode也设置为当前结点。反之，如果preNode不为None，直接把preNode的下一个指针指向当前节点，pNode指向preNode即可；⓶如果pNext为空或者pNext的值不等于pNode的值，说明当前的这个pNode和后面的值不重复，直接令preNode = pNode，pNode指向下一个结点即可。
-
-[面试题58：二叉树的下一个结点](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9.py)：三种情况：当前节点有右子树的话，当前节点的下一个结点是右子树中的最左子节点；当前节点无右子树但是是父节点的左子节点，下一个节点是当前结点的父节点；当前节点无右子树而且是父节点的右子节点，则一直向上遍历，直到找到最靠近的一个祖先节点pNode，pNode是其父节点的左子节点，那么输入节点的下一个结点就是pNode的父节点。
 
 [面试题59：对称的二叉树](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.py)：分为递归和非递归的两种方式，思想是一样的。主要就是把叶子节点的None节点也加入到遍历当中。按照前序遍历二叉树，存入一个序列中。然后按照和前序遍历对应的先父节点，然后右子节点，最后左子节点遍历二叉树，存入一个序列。如果前后两个序列相等，那么说明二叉树是对称的。
 
