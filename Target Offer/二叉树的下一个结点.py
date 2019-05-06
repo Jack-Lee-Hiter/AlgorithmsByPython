@@ -8,25 +8,24 @@ class TreeLinkNode:
         self.val = x
         self.left = None
         self.right = None
-        self.next = None
+        self.father = None  #指向父节点的指针
 class Solution:
-    def GetNext(self, pNode):
-        if pNode == None:
-            return
-        pNext = None
-        if pNode.right != None:
-            pRight = pNode.right
-            while pRight.left != None:
-                pRight = pRight.left
-            pNext= pRight
-        elif pNode.next != None:
-            pCurrent = pNode
-            pParent = pCurrent.next
-            while pParent != None and pCurrent == pParent.right:
-                pCurrent = pParent
-                pParent = pCurrent.next
-            pNext = pParent
-        return pNext
+    def GetNext(self, nNode):
+        if not nNode:
+            return None
+        
+        if nNode.right:   #如果有右子树
+            while nNode.left:
+                nNode = nNode.left
+            return nNode
+        
+        else:        # 如果没有右子树
+            while nNode.father:    # 不停地去找父节点的左子节点是该节点的情况
+                if nNode == nNode.father.left:
+                    return nNode.father
+                nNode = nNode.father
+                
+        return None    #都不满足情况，最后返回为空，是中序遍历的结尾
 
 class Solution2:
     def GetNext(self, pNode):
