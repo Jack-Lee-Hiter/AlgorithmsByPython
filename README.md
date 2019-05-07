@@ -79,9 +79,11 @@
 
 [面试题9：用两个栈实现队列](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.py)：需要两个栈Stack1和Stack2，push的时候直接push进Stack1。pop需要判断Stack1和Stack2中元素的情况，Stack1空的话，直接从Stack2 pop，Stack1不空的话，把Stack1的元素push进入Stack2，然后pop Stack2的值。[推广：用两个队列实现栈](https://github.com/Einstellung/AlgorithmsByPython/blob/master/Target%20Offer/%E7%94%A8%E4%B8%A4%E4%B8%AA%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.py)
 
+[面试题10：斐波那契数列](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.py)：如何不使用递归实现斐波那契数列，需要把前面两个数字存入在一个数组中。斐波那契数列的变形有很多，如青蛙跳台阶，一次跳一个或者两个；铺瓷砖问题。**变态青蛙跳**，每次至少跳一个，至多跳n个，一共有f(n)=2<sup>n-1</sup>种跳法。考察数学建模的能力。
+
 [面试题8：旋转数组的最小数字](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.py)：二分查找的变形，注意到旋转数组的首元素肯定不小于旋转数组的尾元素，设置中间点。如果中间点大于首元素，说明最小数字在后面一半，如果中间点小于尾元素，说明最小数字在前一半。依次循环。同时，当一次循环中首元素小于尾元素，说明最小值就是首元素。但是当首元素等于尾元素等于中间值，只能在这个区域顺序查找。
 
-[面试题9：斐波那契数列](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.py)：如何不使用递归实现斐波那契数列，需要把前面两个数字存入在一个数组中。斐波那契数列的变形有很多，如青蛙跳台阶，一次跳一个或者两个；铺瓷砖问题。**变态青蛙跳**，每次至少跳一个，至多跳n个，一共有f(n)=2<sup>n-1</sup>种跳法。考察数学建模的能力。
+
 
 [面试题10：二进制中1的个数](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Target%20Offer/%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.py)：注意到每个**非零**整数n和n-1进行按位与运算，整数n的二进制数中最右边的1就会变成0，那么二进制数中的1的个数就会减少一个，因此可以利用一个循环，使得 n = n&(n-1) ，计算经过几次运算减少到0，就是有几个1。注意：书中给了另外两种方法，分别是原始n左移一位和右移一位的方法，因为Python不会出现整数溢出的情况，这里就不再考虑着两种方法。扩展：判断一个数值是不是2得整数次方，如果是的话，这个数的二进制数中有且只有一个1，那么这个数n会有 n&(n-1) == 0。或者求两个整数m和n需要改变m二进制中的多少位才能得到n，可以先做 m^n 的异或运算，然后求这个数中有多少个1。
 
