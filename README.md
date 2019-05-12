@@ -45,7 +45,7 @@
 
 [队列](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/Queue.py)
 
-[快排](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/QuickSort.py)
+[快速排序](https://github.com/Einstellung/AlgorithmsByPython/blob/master/QuickSort.py)
 
 [基数排序](https://github.com/Jack-Lee-Hiter/AlgorithmsByPython/blob/master/RadixSort.py)
 
