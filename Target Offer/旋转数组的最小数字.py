@@ -7,28 +7,44 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 
 # -*- coding:utf-8 -*-
 class Solution:
-    def minNumberInRotateArray(self, rotateArray):
-        if len(rotateArray) == 0:
+    def minNumber(self, Array):
+        if len(Array) == 0:   # 如果数组为空，返回0
             return 0
         front = 0
-        rear = len(rotateArray) - 1
-        minVal = rotateArray[0]
-        if rotateArray[front] < rotateArray[rear]:
-            return rotateArray[front]
-        else:
-            while (rear - front) > 1:
-                mid = (rear + front)//2
-                if rotateArray[mid] > rotateArray[rear]:
-                    front = mid
-                elif rotateArray[mid] < rotateArray[front]:
-                    rear = mid
-                elif rotateArray[mid] == rotateArray[front] and rotateArray[front] == rotateArray[rear]:
-                    for i in range(1, len(rotateArray)):
-                        if rotateArray[i] < minVal:
-                            minVal = rotateArray[i]
-                            rear = i
-            minVal = rotateArray[rear]
-            return minVal
+        rear = len(Array) - 1
+        
+        if Array[rear] > Array[front]:    # 如果数组最后一个元素大于第一个元素，证明这个数组是不翻转的数组，直接返回第一个元素
+            return Array[front]
+        
+        while (rear - front) > 1:
+            mid = (front + rear) // 2   # 二分法比较数组中间元素，之所以想到二分法是因为数组是有序的
+            if Array[mid] < Array[rear]:
+                rear = mid
+            if Array[front] < Array[mid]:
+                front = mid
+                
+            if Array[front] == Array[mid] == Array[rear]:  # 对数特殊情况数组的判断，即当首中尾元素都相同的时候，二分法失效，只能顺序查找
+                mid = 0
+                for i in range(1, len(Array)):
+                    if Array[mid] < Array[i]:
+                        continue
+                    else:
+                        mid = i
+                        
+                return Array[mid]
+                
+        return Array[mid]
+
+        
+a = Solution()
+Array = [3, 4, 5, 1, 2]
+Array2 = [1, 2, 3, 4, 5]
+Array3 = [1, 0, 1, 1, 1]
+print(a.minNumber(Array))
+print(a.minNumber(Array2))
+print(a.minNumber(Array3))
+
+
     # 书上方法
     def minNumberInRotateArray2(self, rotateArray):
         if len(rotateArray) == 0:
