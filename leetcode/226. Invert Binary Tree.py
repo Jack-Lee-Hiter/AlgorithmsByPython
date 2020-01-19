@@ -35,7 +35,7 @@ class Solution(object):
         if root:
             root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
             return root
-    # interative
+    # iterative
     def invertTreeInter(self, root):
         stack = [root]
         while stack:
