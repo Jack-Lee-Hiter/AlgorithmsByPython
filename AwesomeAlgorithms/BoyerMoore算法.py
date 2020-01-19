@@ -51,17 +51,17 @@ def badCharTable(pattern):
 '''
 def goodSuffixTable(pattern):
     length = len(pattern)
-    tabel = [0] * length
+    table = [0] * length
     lastPrefixPosition, i = len(pattern), length - 1
     while i >= 0:
         if isPrefix(pattern, i):
             lastPrefixPosition = i
-        tabel[length - 1 - i] = lastPrefixPosition - i + length - 1
+        table[length - 1 - i] = lastPrefixPosition - i + length - 1
         i -= 1
     for i in range(length-1):
         slen = suffixLength(pattern, i)
-        tabel[slen] = length - 1 - i + slen
-    return tabel
+        table[slen] = length - 1 - i + slen
+    return table
 '''
 判断模式后面几个字符是否等于模式前面相应长度的字符
 '''
