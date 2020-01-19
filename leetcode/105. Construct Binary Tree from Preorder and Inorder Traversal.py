@@ -32,7 +32,7 @@ class Solution(object):
             root.left = self.build(start, mid - 1, preorder, inorder, ind)
             root.right = self.build(mid + 1, end, preorder, inorder, ind)
             return root
-    # Interative
+    # Iterative
     def buildTreeInter(self, preorder, inorder):
         if len(preorder) == 0:
             return None
