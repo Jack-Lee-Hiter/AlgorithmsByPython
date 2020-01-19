@@ -10,7 +10,7 @@ class Solution:
     # 使用append一次遍历即可替换
     # 由于list的append是O(1)的时间复杂度，除了扩容所导致的时间损耗，该算法复杂度为O(n)
     def replaceSpaceByAppend(self, s):
-        string = list(string)
+        string = list(s)
         stringReplace = []
         for item in string:
             if item == ' ':
