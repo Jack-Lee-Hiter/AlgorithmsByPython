@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
       - run: pip install codespell flake8
-      - run: codespell -L nto,referer,squirl,uptodate,UPTODATE --skip=./.*,./config/config.ini
+      - run: codespell -L ans,ba
       - run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
